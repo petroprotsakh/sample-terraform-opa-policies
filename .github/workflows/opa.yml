@@ -12,6 +12,7 @@ jobs:
         options: --show-failure-line
         tests: |
           cost
+          external_data
           management/instance_types.rego;management/instance_types_test.rego;management/instance_types_mock.json
           management/resource_tags.rego;management/resource_tags_test.rego;management/resource_tags_mock.json
           management/workspace_name.rego;management/workspace_name_test.rego;management/workspace_name_mock.json
